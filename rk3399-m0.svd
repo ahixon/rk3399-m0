@@ -25,7 +25,7 @@
       <name>CIC</name>
       <version>1.0</version>
       <groupname>CIC</groupname>
-      <baseAddress>0xff620000</baseAddress>
+      <baseAddress>0x47620000</baseAddress>
       <registers>
         <register>
           <name>CIC_CTRL0</name>
@@ -429,7 +429,7 @@ DDR monitor IP version</description>
       <name>CCI_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa86000</baseAddress>
+      <baseAddress>0x47a86000</baseAddress>
       <registers>
         <register>
           <name>PROBE_Id_CoreId</name>
@@ -563,85 +563,85 @@ DDR monitor IP version</description>
       <name>GPU_PROBE_MSCH0E</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa86400</baseAddress>
+      <baseAddress>0x47a86400</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>PERIHP_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa86800</baseAddress>
+      <baseAddress>0x47a86800</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>PERILP_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa86c00</baseAddress>
+      <baseAddress>0x47a86c00</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIDEO_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa87000</baseAddress>
+      <baseAddress>0x47a87000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIO0_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa87400</baseAddress>
+      <baseAddress>0x47a87400</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIO1_PROBE_MSCH0</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa87800</baseAddress>
+      <baseAddress>0x47a87800</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>CCI_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8e000</baseAddress>
+      <baseAddress>0x47a8e000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>GPU_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8e400</baseAddress>
+      <baseAddress>0x47a8e400</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>PERIHP_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8e800</baseAddress>
+      <baseAddress>0x47a8e800</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>PERILP_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8ec00</baseAddress>
+      <baseAddress>0x47a8ec00</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIDEO_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8f000</baseAddress>
+      <baseAddress>0x47a8f000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIO0_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8f400</baseAddress>
+      <baseAddress>0x47a8f400</baseAddress>
     </peripheral>
     <peripheral derivedFrom="CCI_PROBE_MSCH0">
       <name>VIO1_PROBE_MSCH1</name>
       <version>1.0</version>
       <groupname>PROBE</groupname>
-      <baseAddress>0xffa8f800</baseAddress>
+      <baseAddress>0x47a8f800</baseAddress>
     </peripheral>
     <peripheral>
       <name>CRU</name>
       <version>1.0</version>
       <groupname>CRU</groupname>
-      <baseAddress>0xff760000</baseAddress>
+      <baseAddress>0x47760000</baseAddress>
       <registers>
         <register>
           <name>CRU_LPLL_CON0</name>
@@ -11589,7 +11589,7 @@ refer to chapter SDIO</description>
       <name>PMUSGRF</name>
       <version>1.0</version>
       <groupname>PMUSGRF</groupname>
-      <baseAddress>0xff330000</baseAddress>
+      <baseAddress>0x47330000</baseAddress>
       <registers>
         <register>
           <name>fast_boot_addr</name>
@@ -13002,7 +13002,7 @@ refer to chapter SDIO</description>
       <name>WDT2</name>
       <version>1.0</version>
       <groupname>WDT</groupname>
-      <baseAddress>0xff380000</baseAddress>
+      <baseAddress>0x47380000</baseAddress>
       <registers>
         <register>
           <name>WDT_CR</name>
@@ -13170,19 +13170,19 @@ watchdog counter.</description>
       <name>WDT1</name>
       <version>1.0</version>
       <groupname>WDT</groupname>
-      <baseAddress>0xff840000</baseAddress>
+      <baseAddress>0x47840000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="WDT2">
       <name>WDT0</name>
       <version>1.0</version>
       <groupname>WDT</groupname>
-      <baseAddress>0xff848000</baseAddress>
+      <baseAddress>0x47848000</baseAddress>
     </peripheral>
     <peripheral>
       <name>GPIO0</name>
       <version>1.0</version>
       <groupname>GPIO</groupname>
-      <baseAddress>0xff720000</baseAddress>
+      <baseAddress>0x47720000</baseAddress>
       <registers>
         <register>
           <name>GPIO_SWPORTA_DR</name>
@@ -13423,31 +13423,31 @@ being synchronized to pclk_intr.
       <name>GPIO1</name>
       <version>1.0</version>
       <groupname>GPIO</groupname>
-      <baseAddress>0xff730000</baseAddress>
+      <baseAddress>0x47730000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="GPIO0">
       <name>GPIO2</name>
       <version>1.0</version>
       <groupname>GPIO</groupname>
-      <baseAddress>0xff780000</baseAddress>
+      <baseAddress>0x47780000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="GPIO0">
       <name>GPIO3</name>
       <version>1.0</version>
       <groupname>GPIO</groupname>
-      <baseAddress>0xff788000</baseAddress>
+      <baseAddress>0x47788000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="GPIO0">
       <name>GPIO4</name>
       <version>1.0</version>
       <groupname>GPIO</groupname>
-      <baseAddress>0xff790000</baseAddress>
+      <baseAddress>0x47790000</baseAddress>
     </peripheral>
     <peripheral>
       <name>EMMCCORE</name>
       <version>1.0</version>
       <groupname>EMMCCORE</groupname>
-      <baseAddress>0xfe330000</baseAddress>
+      <baseAddress>0x46330000</baseAddress>
       <registers>
         <register>
           <name>EMMCCORE_SADDR</name>
@@ -16754,7 +16754,7 @@ received.</description>
       <name>PMU</name>
       <version>1.0</version>
       <groupname>PMU</groupname>
-      <baseAddress>0xff310000</baseAddress>
+      <baseAddress>0x47310000</baseAddress>
       <registers>
         <register>
           <name>PMU_WAKEUP_CFG0</name>
@@ -21334,7 +21334,7 @@ interface
       <name>UART0</name>
       <version>1.0</version>
       <groupname>UART</groupname>
-      <baseAddress>0xff180000</baseAddress>
+      <baseAddress>0x47180000</baseAddress>
       <registers>
         <register>
           <name>UART_RBR</name>
@@ -22515,31 +22515,31 @@ to
       <name>UART1</name>
       <version>1.0</version>
       <groupname>UART</groupname>
-      <baseAddress>0xff190000</baseAddress>
+      <baseAddress>0x47190000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="UART0">
       <name>UART2</name>
       <version>1.0</version>
       <groupname>UART</groupname>
-      <baseAddress>0xff1a0000</baseAddress>
+      <baseAddress>0x471a0000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="UART0">
       <name>UART3</name>
       <version>1.0</version>
       <groupname>UART</groupname>
-      <baseAddress>0xff1b0000</baseAddress>
+      <baseAddress>0x471b0000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="UART0">
       <name>UART4</name>
       <version>1.0</version>
       <groupname>UART</groupname>
-      <baseAddress>0xff370000</baseAddress>
+      <baseAddress>0x47370000</baseAddress>
     </peripheral>
     <peripheral>
       <name>EFUSE0</name>
       <version>1.0</version>
       <groupname>EFUSE</groupname>
-      <baseAddress>0xff690000</baseAddress>
+      <baseAddress>0x47690000</baseAddress>
       <registers>
         <register>
           <name>EFUSE_CTRL</name>
@@ -22699,13 +22699,13 @@ high once the redundancy bit has been used.</description>
       <name>EFUSE1</name>
       <version>1.0</version>
       <groupname>EFUSE</groupname>
-      <baseAddress>0xfffa0000</baseAddress>
+      <baseAddress>0x47fa0000</baseAddress>
     </peripheral>
     <peripheral>
       <name>MAILBOX1</name>
       <version>1.0</version>
       <groupname>MAILBOX</groupname>
-      <baseAddress>0xff390000</baseAddress>
+      <baseAddress>0x47390000</baseAddress>
       <registers>
         <register>
           <name>MAILBOX_A2B_INTEN</name>
@@ -23632,13 +23632,13 @@ Cortex-A53/Cortex-A72</description>
       <name>MAILBOX0</name>
       <version>1.0</version>
       <groupname>MAILBOX</groupname>
-      <baseAddress>0xff6b0000</baseAddress>
+      <baseAddress>0x476b0000</baseAddress>
     </peripheral>
     <peripheral>
       <name>SPI0</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff1c0000</baseAddress>
+      <baseAddress>0x471c0000</baseAddress>
       <registers>
         <register>
           <name>SPI_CTRLR0</name>
@@ -24346,362 +24346,586 @@ When the register is read, data in the receive FIFO is accessed.</description>
       <name>SPI1</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff1d0000</baseAddress>
+      <baseAddress>0x471d0000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="SPI0">
       <name>SPI3</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff350000</baseAddress>
+      <baseAddress>0x47350000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="SPI0">
       <name>SPI2</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff1e0000</baseAddress>
+      <baseAddress>0x471e0000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="SPI0">
       <name>SPI4</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff1f0000</baseAddress>
+      <baseAddress>0x471f0000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="SPI0">
       <name>SPI5</name>
       <version>1.0</version>
       <groupname>SPI</groupname>
-      <baseAddress>0xff200000</baseAddress>
+      <baseAddress>0x47200000</baseAddress>
     </peripheral>
     <peripheral>
-      <name>SARADC</name>
+      <name>I2C0</name>
       <version>1.0</version>
-      <groupname>SARADC</groupname>
-      <baseAddress>0xff100000</baseAddress>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x473c0000</baseAddress>
       <registers>
         <register>
-          <name>SARADC_DATA</name>
-          <description>This register contains the data after A/D Conversion.</description>
+          <name>RKI2C_CON</name>
+          <description>control register</description>
           <addressOffset>0x0</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>ADC_DATA</name>
-              <description>A/D value of the last conversion (DOUT[9:0]).</description>
-              <bitRange>[9:0]</bitRange>
+              <name>VERSION</name>
+              <description>rki2c version
+version information</description>
+              <bitRange>[31:16]</bitRange>
               <access>read-only</access>
+            </field>
+            <field>
+              <name>STOP_SETUP</name>
+              <description>staop setup config
+TSU;sto = (stop_setup + 1) * T(SCL_HIGH) + Tclk_i2c</description>
+              <bitRange>[15:14]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>START_SETUP</name>
+              <description>start setup config
+TSU;sta = (start_setup + 1) * T(SCL_HIGH) + Tclk_i2c
+THD;sta = (start_setup + 2) * T(SCL_HIGH) - Tclk_i2c</description>
+              <bitRange>[13:12]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>DATA_UPD_ST</name>
+              <description>SDA update point config
+Used to config sda change state when scl is low, used to adjust
+setup/hold time
+4'bn:Thold = (n + 1) * Tclk_i2c
+Note: 0 &lt;= n &lt;= 5</description>
+              <bitRange>[10:8]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ACT2NAK</name>
+              <description>operation when NAK handshake is received
+1'b0: ignored
+1'b1: stop transaction</description>
+              <bitRange>[6:6]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ACK</name>
+              <description>last byte acknowledge control in master receive mode
+1'b0: ACK
+1'b1: NAK</description>
+              <bitRange>[5:5]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>STOP</name>
+              <description>stop enable
+stop enable, when this bit is written to 1, I2C will generate stop
+signal.</description>
+              <bitRange>[4:4]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>START</name>
+              <description>start enable
+start enable, when this bit is written to 1, I2C will generate start
+signal.</description>
+              <bitRange>[3:3]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>I2C_MODE</name>
+              <description>i2c mode select
+2'b00: transmit only
+2'b01: transmit address (device + register address) --&gt; restart -
+-&gt; transmit address -&gt; receive only
+2'b10: receive only
+2'b11: transmit address (device + register address, write/read bit
+is 1) --&gt; restart --&gt; transmit address (device address) --&gt;
+receive data</description>
+              <bitRange>[2:1]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>I2C_EN</name>
+              <description>i2c module enable
+1'b0:not enable
+1'b1:enable</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_STAS</name>
-          <description>The status register of A/D Converter.</description>
+          <name>RKI2C_CLKDIV</name>
+          <description>clock divider register</description>
           <addressOffset>0x4</addressOffset>
           <size>32</size>
-          <resetValue>0x0</resetValue>
+          <resetValue>0x1</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>ADC_STATUS</name>
-              <description>ADC status (EOC)
-0: ADC stop
-1: Conversion in progress</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-only</access>
+              <name>CLKDIVH</name>
+              <description>scl high level clock count
+T(SCL_HIGH) = Tclk_i2c * (CLKDIVH + 1) * 8</description>
+              <bitRange>[31:16]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CLKDIVL</name>
+              <description>scl low level clock count
+T(SCL_LOW) = Tclk_i2c * (CLKDIVL + 1) * 8</description>
+              <bitRange>[15:0]</bitRange>
+              <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_CTRL</name>
-          <description>The control register of A/D Converter.</description>
+          <name>RKI2C_MRXADDR</name>
+          <description>the slave address accessed    for master rx mode</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>INT_STATUS</name>
-              <description>Interrupt status.
-This bit will be set to 1 when end-of-conversion.
-Set 0 to clear the interrupt.</description>
-              <bitRange>[6:6]</bitRange>
+              <name>ADDHVLD</name>
+              <description>address high byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[26:26]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>INT_EN</name>
-              <description>Interrupt enable.
-0: Disable
-1: Enable</description>
-              <bitRange>[5:5]</bitRange>
+              <name>ADDMVLD</name>
+              <description>address middle byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[25:25]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>ADC_POWER_CTRL</name>
-              <description>ADC power down control bit
-0: ADC power down;
-1: ADC power up and reset.
-start signal will be asserted (DLY_PU_SOC + 2) sclk clock period
-later after power up</description>
-              <bitRange>[3:3]</bitRange>
+              <name>ADDLVLD</name>
+              <description>address low byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[24:24]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>ADC_INPUT_SRC_SEL</name>
-              <description>ADC input source selection(CH_SEL[2:0]).
-000 : Input source 0 (SARADC_AIN[0])
-001 : Input source 1 (SARADC_AIN[1])
-010 : Input source 2 (SARADC_AIN[2])
-011 : Input source 3 (SARADC_AIN[3])
-100 : Input source 4 (SARADC_AIN[4])
-101 : Input source 5 (SARADC_AIN[5])
-Others : Reserved</description>
-              <bitRange>[2:0]</bitRange>
+              <name>SADDR</name>
+              <description>master address register
+the lowest bit indicate write or read
+24 bits address register</description>
+              <bitRange>[23:0]</bitRange>
               <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_DLY_PU_SOC</name>
-          <description>delay between power up and start command</description>
+          <name>RKI2C_MRXRADDR</name>
+          <description>the slave register address accessed    for master rx mode</description>
           <addressOffset>0xc</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>DLY_PU_SOC</name>
-              <description>delay between power up and start command
-The start signal will be asserted (DLY_PU_SOC + 2) sclk clock
-period later after power up</description>
+              <name>SRADDHVLD</name>
+              <description>address high byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[26:26]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>SRADDMVLD</name>
+              <description>address middle byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[25:25]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>SRADDLVLD</name>
+              <description>address low byte valid
+1'b0:invalid
+1'b1:valid</description>
+              <bitRange>[24:24]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>SRADDR</name>
+              <description>slave register address accessed
+24 bits register address</description>
+              <bitRange>[23:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_MTXCNT</name>
+          <description>master transmit count</description>
+          <addressOffset>0x10</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>MTXCNT</name>
+              <description>master transmit count
+6 bits counter</description>
               <bitRange>[5:0]</bitRange>
               <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_DLY_PU_SOC0</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x60</addressOffset>
+          <name>RKI2C_MRXCNT</name>
+          <description>master rx count</description>
+          <addressOffset>0x14</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
+              <name>MRXCNT</name>
+              <description>master rx count
+6 bits counter</description>
+              <bitRange>[5:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_IEN</name>
+          <description>interrupt enable register</description>
+          <addressOffset>0x18</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>SLAVEHDSCLEN</name>
+              <description>slave hold scl interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[7:7]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
+              <name>NAKRCVIEN</name>
+              <description>NAK handshake received interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[6:6]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>STOPIEN</name>
+              <description>stop operation finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[5:5]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>STARTIEN</name>
+              <description>start operation finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[4:4]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>MBRFIEN</name>
+              <description>MRXCNT data received finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[3:3]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>MBTFIEN</name>
+              <description>MTXCNT data transfer finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[2:2]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>BRFIEN</name>
+              <description>byte rx finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[1:1]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>BTFIEN</name>
+              <description>byte tx finished interrupt enable
+1'b0:disable
+1'b1:enable</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_IPD</name>
+          <description>interrupt pending register</description>
+          <addressOffset>0x1c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>SLAVEHDSCLIPD</name>
+              <description>slave hold scl interrupt pending bit
+1'b0:no interrupt available
+1'b1:slave hold scl interrupt appear, write 1 to clear</description>
+              <bitRange>[7:7]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>NAKRCVIPD</name>
+              <description>NAK handshake received interrupt pending bit
+1'b0:no interrupt available
+1'b1:NAK handshake received interrupt appear, write 1 to clear</description>
+              <bitRange>[6:6]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>STOPIPD</name>
+              <description>stop operation finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:stop operation finished interrupt appear, write 1 to clear</description>
+              <bitRange>[5:5]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>STARTIPD</name>
+              <description>start operation finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:start operation finished interrupt appear, write 1 to clear</description>
+              <bitRange>[4:4]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>MBRFIPD</name>
+              <description>MRXCNT data received finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:MRXCNT data received finished interrupt appear, write 1 to
+clear</description>
+              <bitRange>[3:3]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>MBTFIPD</name>
+              <description>MTXCNT data transfer finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:MTXCNT data transfer finished interrupt appear, write 1 to
+clear</description>
+              <bitRange>[2:2]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>BRFIPD</name>
+              <description>byte rx finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:byte rx finished interrupt appear, write 1 to clear</description>
+              <bitRange>[1:1]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
+              <name>BTFIPD</name>
+              <description>byte tx finished interrupt pending bit
+1'b0:no interrupt available
+1'b1:byte tx finished interrupt appear, write 1 to clear</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_FCNT</name>
+          <description>finished count</description>
+          <addressOffset>0x20</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>FCNT</name>
+              <description>finished count
+the count of data which has been transmitted or received
+for debug purpose</description>
+              <bitRange>[5:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_DLY_PU_SOC1</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x64</addressOffset>
+          <name>RKI2C_SCL_OE_DB</name>
+          <description>slave hold debounce configure register</description>
+          <addressOffset>0x24</addressOffset>
           <size>32</size>
-          <resetValue>0x0</resetValue>
+          <resetValue>0x20</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
+              <name>SCL_OE_DB</name>
+              <description>slave hold scl debounce
+cycles for debounce (unit: Tclk_i2c)</description>
+              <bitRange>[7:0]</bitRange>
               <access>read-write</access>
             </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_TXDATA%s</name>
+          <description>I2C tx data register n</description>
+          <addressOffset>0x100</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <dim>8</dim>
+          <dimIndex>0-7</dimIndex>
+          <dimIncrement>4</dimIncrement>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
             <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
+              <name>RKI2C_TXDATA</name>
+              <description>32-byte data to transmit</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RKI2C_RXDATA%s</name>
+          <description>I2C rx data register n</description>
+          <addressOffset>0x200</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <dim>8</dim>
+          <dimIndex>0-7</dimIndex>
+          <dimIncrement>4</dimIncrement>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>RKI2C_RXDATA</name>
+              <description>32-byte received data</description>
+              <bitRange>[31:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>SARADC_DLY_PU_SOC2</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x68</addressOffset>
+          <name>RKI2C_ST</name>
+          <description>status debug register</description>
+          <addressOffset>0x220</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
+              <name>SCL_ST</name>
+              <description>scl status
+1'b0: scl status low
+1'b0: scl status high</description>
+              <bitRange>[1:1]</bitRange>
               <access>read-only</access>
             </field>
-          </fields>
-        </register>
-        <register>
-          <name>SARADC_DLY_PU_SOC3</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x6c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
             <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SARADC_DLY_PU_SOC4</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x70</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SARADC_DLY_PU_SOC5</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x74</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SARADC_DLY_PU_SOC6</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x78</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SARADC_DLY_PU_SOC7</name>
-          <description>FIFO Register</description>
-          <addressOffset>0x7c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>POL</name>
-              <description>Polarity
-This bit indicates the polarity of the lower 31-bit counter.
-0: Low
-1: High</description>
-              <bitRange>[31:31]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CYCLE_CNT</name>
-              <description>High/Low Cycle Counter
-This 31-bit counter indicates the effective cycles of high/low
-waveform.</description>
-              <bitRange>[30:0]</bitRange>
+              <name>SDA_ST</name>
+              <description>sda status
+1'b0: sda status low
+1'b0: sda status high
+receive &#65311;</description>
+              <bitRange>[0:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
       </registers>
     </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C1</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47110000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C2</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47120000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C3</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47130000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C4</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x473d0000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C5</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47140000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C6</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47150000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C7</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x47160000</baseAddress>
+    </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C8</name>
+      <version>1.0</version>
+      <groupname>RKI2C</groupname>
+      <baseAddress>0x473e0000</baseAddress>
+    </peripheral>
     <peripheral>
       <name>PI0</name>
       <version>1.0</version>
       <groupname>PI</groupname>
-      <baseAddress>0xffa80800</baseAddress>
+      <baseAddress>0x47a80800</baseAddress>
       <registers>
         <register>
           <name>PI_REG_0</name>
@@ -29336,13 +29560,13 @@ Frequency change request
       <name>PI1</name>
       <version>1.0</version>
       <groupname>PI</groupname>
-      <baseAddress>0xffa88800</baseAddress>
+      <baseAddress>0x47a88800</baseAddress>
     </peripheral>
     <peripheral>
       <name>DMAC0</name>
       <version>1.0</version>
       <groupname>DMAC</groupname>
-      <baseAddress>0xff6d0000</baseAddress>
+      <baseAddress>0x476d0000</baseAddress>
       <registers>
         <register>
           <name>DMAC_DSR</name>
@@ -30831,13 +31055,13 @@ irq_abort HIGH
       <name>DMAC1</name>
       <version>1.0</version>
       <groupname>DMAC</groupname>
-      <baseAddress>0xff6e0000</baseAddress>
+      <baseAddress>0x476e0000</baseAddress>
     </peripheral>
     <peripheral>
       <name>TIMER0</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850000</baseAddress>
+      <baseAddress>0x47850000</baseAddress>
       <registers>
         <register>
           <name>TIMER_n_LOAD_COUNT0</name>
@@ -30917,157 +31141,157 @@ irq_abort HIGH
       <name>TIMER1</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850020</baseAddress>
+      <baseAddress>0x47850020</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER2</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850040</baseAddress>
+      <baseAddress>0x47850040</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER3</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850060</baseAddress>
+      <baseAddress>0x47850060</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER4</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850080</baseAddress>
+      <baseAddress>0x47850080</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER5</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff850100</baseAddress>
+      <baseAddress>0x47850100</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER6</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858000</baseAddress>
+      <baseAddress>0x47858000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER7</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858020</baseAddress>
+      <baseAddress>0x47858020</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER8</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858040</baseAddress>
+      <baseAddress>0x47858040</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER9</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858060</baseAddress>
+      <baseAddress>0x47858060</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER10</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858080</baseAddress>
+      <baseAddress>0x47858080</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>TIMER11</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff858100</baseAddress>
+      <baseAddress>0x47858100</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER0</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860000</baseAddress>
+      <baseAddress>0x47860000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER1</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860020</baseAddress>
+      <baseAddress>0x47860020</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER2</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860040</baseAddress>
+      <baseAddress>0x47860040</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER3</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860060</baseAddress>
+      <baseAddress>0x47860060</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER4</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860080</baseAddress>
+      <baseAddress>0x47860080</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER5</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff860100</baseAddress>
+      <baseAddress>0x47860100</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER6</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868000</baseAddress>
+      <baseAddress>0x47868000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER7</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868020</baseAddress>
+      <baseAddress>0x47868020</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER8</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868040</baseAddress>
+      <baseAddress>0x47868040</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER9</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868060</baseAddress>
+      <baseAddress>0x47868060</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER10</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868080</baseAddress>
+      <baseAddress>0x47868080</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>STIMER11</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff868100</baseAddress>
+      <baseAddress>0x47868100</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>PMUTIMER0</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff360000</baseAddress>
+      <baseAddress>0x47360000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="TIMER0">
       <name>PMUTIMER1</name>
       <version>1.0</version>
       <groupname>TIMER</groupname>
-      <baseAddress>0xff360020</baseAddress>
+      <baseAddress>0x47360020</baseAddress>
     </peripheral>
     <peripheral>
       <name>GRF</name>
       <version>1.0</version>
       <groupname>GRF</groupname>
-      <baseAddress>0xff770000</baseAddress>
+      <baseAddress>0x47770000</baseAddress>
       <registers>
         <register>
           <name>GRF_USB3_PERF_CON0</name>
@@ -46871,7 +47095,7 @@ software;</description>
       <name>MSCH0</name>
       <version>1.0</version>
       <groupname>MSCH</groupname>
-      <baseAddress>0xffa84000</baseAddress>
+      <baseAddress>0x47a84000</baseAddress>
       <registers>
         <register>
           <name>MSCH_Id_CoreId</name>
@@ -46969,13 +47193,13 @@ software;</description>
       <name>MSCH1</name>
       <version>1.0</version>
       <groupname>MSCH</groupname>
-      <baseAddress>0xffa8c000</baseAddress>
+      <baseAddress>0x47a8c000</baseAddress>
     </peripheral>
     <peripheral>
       <name>PMUGRF</name>
       <version>1.0</version>
       <groupname>PMUGRF</groupname>
-      <baseAddress>0xff320000</baseAddress>
+      <baseAddress>0x47320000</baseAddress>
       <registers>
         <register>
           <name>PMUGRF_GPIO0A_IOMUX</name>
@@ -48902,7 +49126,7 @@ software;</description>
       <name>CCI500</name>
       <version>1.0</version>
       <groupname>CCI500</groupname>
-      <baseAddress>0xffb00000</baseAddress>
+      <baseAddress>0x47b00000</baseAddress>
       <registers>
         <register>
           <name>CCI500_SYS_CTRL</name>
@@ -49866,7 +50090,7 @@ OBS</description>
       <name>GMAC</name>
       <version>1.0</version>
       <groupname>GMAC</groupname>
-      <baseAddress>0xfe300000</baseAddress>
+      <baseAddress>0x46300000</baseAddress>
       <registers>
         <register>
           <name>GMAC_MAC_CONF</name>
@@ -53183,559 +53407,335 @@ Cleared on Reset. Pointer updated by DMA during operation.</description>
       </registers>
     </peripheral>
     <peripheral>
-      <name>I2C0</name>
+      <name>SARADC</name>
       <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff3c0000</baseAddress>
+      <groupname>SARADC</groupname>
+      <baseAddress>0x47100000</baseAddress>
       <registers>
         <register>
-          <name>RKI2C_CON</name>
-          <description>control register</description>
+          <name>SARADC_DATA</name>
+          <description>This register contains the data after A/D Conversion.</description>
           <addressOffset>0x0</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>VERSION</name>
-              <description>rki2c version
-version information</description>
-              <bitRange>[31:16]</bitRange>
+              <name>ADC_DATA</name>
+              <description>A/D value of the last conversion (DOUT[9:0]).</description>
+              <bitRange>[9:0]</bitRange>
               <access>read-only</access>
-            </field>
-            <field>
-              <name>STOP_SETUP</name>
-              <description>staop setup config
-TSU;sto = (stop_setup + 1) * T(SCL_HIGH) + Tclk_i2c</description>
-              <bitRange>[15:14]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>START_SETUP</name>
-              <description>start setup config
-TSU;sta = (start_setup + 1) * T(SCL_HIGH) + Tclk_i2c
-THD;sta = (start_setup + 2) * T(SCL_HIGH) - Tclk_i2c</description>
-              <bitRange>[13:12]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>DATA_UPD_ST</name>
-              <description>SDA update point config
-Used to config sda change state when scl is low, used to adjust
-setup/hold time
-4'bn:Thold = (n + 1) * Tclk_i2c
-Note: 0 &lt;= n &lt;= 5</description>
-              <bitRange>[10:8]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>ACT2NAK</name>
-              <description>operation when NAK handshake is received
-1'b0: ignored
-1'b1: stop transaction</description>
-              <bitRange>[6:6]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>ACK</name>
-              <description>last byte acknowledge control in master receive mode
-1'b0: ACK
-1'b1: NAK</description>
-              <bitRange>[5:5]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>STOP</name>
-              <description>stop enable
-stop enable, when this bit is written to 1, I2C will generate stop
-signal.</description>
-              <bitRange>[4:4]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>START</name>
-              <description>start enable
-start enable, when this bit is written to 1, I2C will generate start
-signal.</description>
-              <bitRange>[3:3]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>I2C_MODE</name>
-              <description>i2c mode select
-2'b00: transmit only
-2'b01: transmit address (device + register address) --&gt; restart -
--&gt; transmit address -&gt; receive only
-2'b10: receive only
-2'b11: transmit address (device + register address, write/read bit
-is 1) --&gt; restart --&gt; transmit address (device address) --&gt;
-receive data</description>
-              <bitRange>[2:1]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>I2C_EN</name>
-              <description>i2c module enable
-1'b0:not enable
-1'b1:enable</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_CLKDIV</name>
-          <description>clock divider register</description>
+          <name>SARADC_STAS</name>
+          <description>The status register of A/D Converter.</description>
           <addressOffset>0x4</addressOffset>
           <size>32</size>
-          <resetValue>0x1</resetValue>
+          <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>CLKDIVH</name>
-              <description>scl high level clock count
-T(SCL_HIGH) = Tclk_i2c * (CLKDIVH + 1) * 8</description>
-              <bitRange>[31:16]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CLKDIVL</name>
-              <description>scl low level clock count
-T(SCL_LOW) = Tclk_i2c * (CLKDIVL + 1) * 8</description>
-              <bitRange>[15:0]</bitRange>
-              <access>read-write</access>
+              <name>ADC_STATUS</name>
+              <description>ADC status (EOC)
+0: ADC stop
+1: Conversion in progress</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-only</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_MRXADDR</name>
-          <description>the slave address accessed    for master rx mode</description>
+          <name>SARADC_CTRL</name>
+          <description>The control register of A/D Converter.</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>ADDHVLD</name>
-              <description>address high byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[26:26]</bitRange>
+              <name>INT_STATUS</name>
+              <description>Interrupt status.
+This bit will be set to 1 when end-of-conversion.
+Set 0 to clear the interrupt.</description>
+              <bitRange>[6:6]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>ADDMVLD</name>
-              <description>address middle byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[25:25]</bitRange>
+              <name>INT_EN</name>
+              <description>Interrupt enable.
+0: Disable
+1: Enable</description>
+              <bitRange>[5:5]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>ADDLVLD</name>
-              <description>address low byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[24:24]</bitRange>
+              <name>ADC_POWER_CTRL</name>
+              <description>ADC power down control bit
+0: ADC power down;
+1: ADC power up and reset.
+start signal will be asserted (DLY_PU_SOC + 2) sclk clock period
+later after power up</description>
+              <bitRange>[3:3]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>SADDR</name>
-              <description>master address register
-the lowest bit indicate write or read
-24 bits address register</description>
-              <bitRange>[23:0]</bitRange>
+              <name>ADC_INPUT_SRC_SEL</name>
+              <description>ADC input source selection(CH_SEL[2:0]).
+000 : Input source 0 (SARADC_AIN[0])
+001 : Input source 1 (SARADC_AIN[1])
+010 : Input source 2 (SARADC_AIN[2])
+011 : Input source 3 (SARADC_AIN[3])
+100 : Input source 4 (SARADC_AIN[4])
+101 : Input source 5 (SARADC_AIN[5])
+Others : Reserved</description>
+              <bitRange>[2:0]</bitRange>
               <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_MRXRADDR</name>
-          <description>the slave register address accessed    for master rx mode</description>
+          <name>SARADC_DLY_PU_SOC</name>
+          <description>delay between power up and start command</description>
           <addressOffset>0xc</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>SRADDHVLD</name>
-              <description>address high byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[26:26]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SRADDMVLD</name>
-              <description>address middle byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[25:25]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SRADDLVLD</name>
-              <description>address low byte valid
-1'b0:invalid
-1'b1:valid</description>
-              <bitRange>[24:24]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SRADDR</name>
-              <description>slave register address accessed
-24 bits register address</description>
-              <bitRange>[23:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_MTXCNT</name>
-          <description>master transmit count</description>
-          <addressOffset>0x10</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>MTXCNT</name>
-              <description>master transmit count
-6 bits counter</description>
+              <name>DLY_PU_SOC</name>
+              <description>delay between power up and start command
+The start signal will be asserted (DLY_PU_SOC + 2) sclk clock
+period later after power up</description>
               <bitRange>[5:0]</bitRange>
               <access>read-write</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_MRXCNT</name>
-          <description>master rx count</description>
-          <addressOffset>0x14</addressOffset>
+          <name>SARADC_DLY_PU_SOC0</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x60</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>MRXCNT</name>
-              <description>master rx count
-6 bits counter</description>
-              <bitRange>[5:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_IEN</name>
-          <description>interrupt enable register</description>
-          <addressOffset>0x18</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SLAVEHDSCLEN</name>
-              <description>slave hold scl interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[7:7]</bitRange>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
               <access>read-write</access>
             </field>
             <field>
-              <name>NAKRCVIEN</name>
-              <description>NAK handshake received interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[6:6]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>STOPIEN</name>
-              <description>stop operation finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[5:5]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>STARTIEN</name>
-              <description>start operation finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[4:4]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>MBRFIEN</name>
-              <description>MRXCNT data received finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[3:3]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>MBTFIEN</name>
-              <description>MTXCNT data transfer finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[2:2]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>BRFIEN</name>
-              <description>byte rx finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>BTFIEN</name>
-              <description>byte tx finished interrupt enable
-1'b0:disable
-1'b1:enable</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_IPD</name>
-          <description>interrupt pending register</description>
-          <addressOffset>0x1c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SLAVEHDSCLIPD</name>
-              <description>slave hold scl interrupt pending bit
-1'b0:no interrupt available
-1'b1:slave hold scl interrupt appear, write 1 to clear</description>
-              <bitRange>[7:7]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>NAKRCVIPD</name>
-              <description>NAK handshake received interrupt pending bit
-1'b0:no interrupt available
-1'b1:NAK handshake received interrupt appear, write 1 to clear</description>
-              <bitRange>[6:6]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>STOPIPD</name>
-              <description>stop operation finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:stop operation finished interrupt appear, write 1 to clear</description>
-              <bitRange>[5:5]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>STARTIPD</name>
-              <description>start operation finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:start operation finished interrupt appear, write 1 to clear</description>
-              <bitRange>[4:4]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>MBRFIPD</name>
-              <description>MRXCNT data received finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:MRXCNT data received finished interrupt appear, write 1 to
-clear</description>
-              <bitRange>[3:3]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>MBTFIPD</name>
-              <description>MTXCNT data transfer finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:MTXCNT data transfer finished interrupt appear, write 1 to
-clear</description>
-              <bitRange>[2:2]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>BRFIPD</name>
-              <description>byte rx finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:byte rx finished interrupt appear, write 1 to clear</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-            <field>
-              <name>BTFIPD</name>
-              <description>byte tx finished interrupt pending bit
-1'b0:no interrupt available
-1'b1:byte tx finished interrupt appear, write 1 to clear</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_FCNT</name>
-          <description>finished count</description>
-          <addressOffset>0x20</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>FCNT</name>
-              <description>finished count
-the count of data which has been transmitted or received
-for debug purpose</description>
-              <bitRange>[5:0]</bitRange>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_SCL_OE_DB</name>
-          <description>slave hold debounce configure register</description>
-          <addressOffset>0x24</addressOffset>
-          <size>32</size>
-          <resetValue>0x20</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SCL_OE_DB</name>
-              <description>slave hold scl debounce
-cycles for debounce (unit: Tclk_i2c)</description>
-              <bitRange>[7:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_TXDATA%s</name>
-          <description>I2C tx data register n</description>
-          <addressOffset>0x100</addressOffset>
+          <name>SARADC_DLY_PU_SOC1</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x64</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
-          <dim>8</dim>
-          <dimIndex>0-7</dimIndex>
-          <dimIncrement>4</dimIncrement>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>RKI2C_TXDATA</name>
-              <description>32-byte data to transmit</description>
-              <bitRange>[31:0]</bitRange>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
               <access>read-write</access>
             </field>
-          </fields>
-        </register>
-        <register>
-          <name>RKI2C_RXDATA%s</name>
-          <description>I2C rx data register n</description>
-          <addressOffset>0x200</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <dim>8</dim>
-          <dimIndex>0-7</dimIndex>
-          <dimIncrement>4</dimIncrement>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
             <field>
-              <name>RKI2C_RXDATA</name>
-              <description>32-byte received data</description>
-              <bitRange>[31:0]</bitRange>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
         <register>
-          <name>RKI2C_ST</name>
-          <description>status debug register</description>
-          <addressOffset>0x220</addressOffset>
+          <name>SARADC_DLY_PU_SOC2</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x68</addressOffset>
           <size>32</size>
           <resetValue>0x0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>SCL_ST</name>
-              <description>scl status
-1'b0: scl status low
-1'b0: scl status high</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-only</access>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
             </field>
             <field>
-              <name>SDA_ST</name>
-              <description>sda status
-1'b0: sda status low
-1'b0: sda status high
-receive &#65311;</description>
-              <bitRange>[0:0]</bitRange>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>SARADC_DLY_PU_SOC3</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x6c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>SARADC_DLY_PU_SOC4</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x70</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>SARADC_DLY_PU_SOC5</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x74</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>SARADC_DLY_PU_SOC6</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x78</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>SARADC_DLY_PU_SOC7</name>
+          <description>FIFO Register</description>
+          <addressOffset>0x7c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>POL</name>
+              <description>Polarity
+This bit indicates the polarity of the lower 31-bit counter.
+0: Low
+1: High</description>
+              <bitRange>[31:31]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CYCLE_CNT</name>
+              <description>High/Low Cycle Counter
+This 31-bit counter indicates the effective cycles of high/low
+waveform.</description>
+              <bitRange>[30:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
         </register>
       </registers>
     </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C1</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff110000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C2</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff120000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C3</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff130000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C4</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff3d0000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C5</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff140000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C6</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff150000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C7</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff160000</baseAddress>
-    </peripheral>
-    <peripheral derivedFrom="I2C0">
-      <name>I2C8</name>
-      <version>1.0</version>
-      <groupname>RKI2C</groupname>
-      <baseAddress>0xff3e0000</baseAddress>
-    </peripheral>
     <peripheral>
       <name>SPDIF</name>
       <version>1.0</version>
       <groupname>SPDIF</groupname>
-      <baseAddress>0xff870000</baseAddress>
+      <baseAddress>0x47870000</baseAddress>
       <registers>
         <register>
           <name>SPDIF_CFGR</name>
@@ -54267,7 +54267,7 @@ Table 14-2 Interface Between SPDIF and HDMI</description>
       <name>PMUCRU</name>
       <version>1.0</version>
       <groupname>PMUCRU</groupname>
-      <baseAddress>0xff750000</baseAddress>
+      <baseAddress>0x47750000</baseAddress>
       <registers>
         <register>
           <name>PMUCRU_PPLL_CON0</name>
@@ -55833,7 +55833,7 @@ request needed</description>
       <name>TSADC</name>
       <version>1.0</version>
       <groupname>TSADC</groupname>
-      <baseAddress>0xff260000</baseAddress>
+      <baseAddress>0x47260000</baseAddress>
       <registers>
         <register>
           <name>TSADC_USER_CON</name>
@@ -56372,7 +56372,7 @@ TSADC_LOW_INT will be valid.</description>
       <name>ISP0_MMU0</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff914000</baseAddress>
+      <baseAddress>0x47914000</baseAddress>
       <registers>
         <register>
           <name>MMU_DTE_ADDR</name>
@@ -56629,730 +56629,49 @@ when it is 1, the mmu will auto gating itself</description>
       <name>ISP0_MMU1</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff915000</baseAddress>
+      <baseAddress>0x47915000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>ISP1_MMU0</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff924000</baseAddress>
+      <baseAddress>0x47924000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>ISP1_MMU1</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff925000</baseAddress>
+      <baseAddress>0x47925000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>VOPL_MMU</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff8f0300</baseAddress>
+      <baseAddress>0x478f0300</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>VOPB_MMU</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff900300</baseAddress>
+      <baseAddress>0x47900300</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>IEP_MMU</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff670800</baseAddress>
+      <baseAddress>0x47670800</baseAddress>
     </peripheral>
     <peripheral derivedFrom="ISP0_MMU0">
       <name>HDCP_MMU</name>
       <version>1.0</version>
       <groupname>MMU</groupname>
-      <baseAddress>0xff930000</baseAddress>
-    </peripheral>
-    <peripheral>
-      <name>DDRMON</name>
-      <version>1.0</version>
-      <groupname>DDRMON</groupname>
-      <baseAddress>0xff630000</baseAddress>
-      <registers>
-        <register>
-          <name>DDRMON_IP_VERSION</name>
-          <description>DDR Monitor IP Version</description>
-          <addressOffset>0x0</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields/>
-        </register>
-        <register>
-          <name>DDRMON_CTRL</name>
-          <description>DDR Monitor Control Register</description>
-          <addressOffset>0x4</addressOffset>
-          <size>32</size>
-          <resetValue>0x8</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>WRITE_ENABLE</name>
-              <description>bit0~15 write enable
-When bit 16=1, bit 0 can be written by softwar .
-When bit 16=0, bit 0 cannot be written by software;
-When bit 17=1, bit 1 can be written by software.
-When bit 17=0, bit 1 cannot be written by software;
-......
-When bit 31=1, bit 15 can be written by software.
-When bit 31=0, bit 15 cannot be written by software;</description>
-              <bitRange>[31:16]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>LPDDR4_EN</name>
-              <description>LPDDR4 Mode Enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[4:4]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>HARDWARE_EN</name>
-              <description>Hardware Mode Enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[3:3]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>LPDDR3_EN</name>
-              <description>LPDDR3 Mode Monitor Enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[2:2]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SOFTWARE_EN</name>
-              <description>Software Mode Enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>TIMER_CNT_EN</name>
-              <description>DFI Timer Count Enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_INT_STATUS</name>
-          <description>Interrupt Status</description>
-          <addressOffset>0x8</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_RD_ADDR_HIT</name>
-              <description>This is the interrupt status of channel 1 read address hit the setting
-range</description>
-              <bitRange>[8:8]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH1_WR_ADDR_HIT</name>
-              <description>This is the interrupt status of channel 1 write address hit the setting
-range</description>
-              <bitRange>[7:7]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH0_RD_ADDR_HIT</name>
-              <description>This is the interrupt status of channel 0 read address hit the setting
-range</description>
-              <bitRange>[6:6]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH0_WR_ADDR_HIT</name>
-              <description>This is the interrupt status of channel 0 write address hit the setting
-range</description>
-              <bitRange>[5:5]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH1_OVER_INT</name>
-              <description>This is the interrupt status of DDR read and write burst number
-more than high threshold in channel 0</description>
-              <bitRange>[3:3]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH1_BELOW_INT</name>
-              <description>This is the interrupt status of DDR read and write burst number less
-than low threshold in channel 0</description>
-              <bitRange>[2:2]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH0_OVER_INT</name>
-              <description>This is the interrupt status of DDR read and write burst number
-more than high threshold in channel 0</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-only</access>
-            </field>
-            <field>
-              <name>CH0_BELOW_INT</name>
-              <description>This is the interrupt status of DDR read and write burst number less
-than low threshold in channel 0</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_INT_MASK</name>
-          <description>Interrupt mask control</description>
-          <addressOffset>0xc</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>INT_MASK</name>
-              <description>Interrupt mask control, when bit set to 1'b1, the corresponding
-interrupt will disable</description>
-              <bitRange>[8:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_TIMER_COUNT</name>
-          <description>The DFI Timer Threshold</description>
-          <addressOffset>0x10</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>TIMER_COUNT</name>
-              <description>The DFI timer threshold, the statistics of DDR access only be done
-when timer counter is less then this threshold in hardware mode</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_FLOOR_NUMBER</name>
-          <description>The Low Threshold in the Comparison of DDR Access</description>
-          <addressOffset>0x14</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>FLOOR_NUMBER</name>
-              <description>The low threshold in the comparison of DDR access</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_TOP_NUMBER</name>
-          <description>The High Threshold in the Comparison of DDR Access</description>
-          <addressOffset>0x18</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>TOP_NUMBER</name>
-              <description>The high threshold in the comparison of DDR access</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DFI_ACT_NUM</name>
-          <description>Channel 0 DFI Active Command Number</description>
-          <addressOffset>0x1c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DFI_ACT_NUM</name>
-              <description>DFI active command number in the statistics range of the channel
-0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DFI_WR_NUM</name>
-          <description>Channel 0 DFI write Command Number</description>
-          <addressOffset>0x20</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DFI_WR_NUM</name>
-              <description>DFI write command number in the statistics range of the channel 0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DFI_RD_NUM</name>
-          <description>Channel 0 DFI read Command Number</description>
-          <addressOffset>0x24</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DFI_RD_NUM</name>
-              <description>DFI read command number in the statistics range of the channel 0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_COUNT_NUM</name>
-          <description>Channel 0 Timer Count Number</description>
-          <addressOffset>0x28</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DFI_COUNT_NUM</name>
-              <description>Timer count number in the statistics range of the channel 0, the
-value should be divided by 2 as actual timer count.</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DFI_ACCESS_NUM</name>
-          <description>Channel 0 DFI Read and Write Command Number</description>
-          <addressOffset>0x2c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DFI_ACCESS_NUM</name>
-              <description>DFI read and write command number in the statistics range of the
-channel 0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DFI_ACT_NUM</name>
-          <description>Channel 1 DFI Active Command Number</description>
-          <addressOffset>0x30</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DFI_ACT_NUM</name>
-              <description>DFI active command number in the statistics range of the channel
-1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DFI_WR_NUM</name>
-          <description>Channel 1 DFI write Command Number</description>
-          <addressOffset>0x34</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DFI_WR_NUM</name>
-              <description>DFI write command number in the statistics range of the channel 1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DFI_RD_NUM</name>
-          <description>Channel 1 DFI read Command Number</description>
-          <addressOffset>0x38</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DFI_RD_NUM</name>
-              <description>DFI read command number in the statistics range of the channel 1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_COUNT_NUM</name>
-          <description>Channel 1 Timer Count Number</description>
-          <addressOffset>0x3c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DFI_COUNT_NUM</name>
-              <description>Timer count number in the statistics range of the channel 1, the
-value should be divided by 2 as actual timer count.</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DFI_ACCESS_NUM</name>
-          <description>Channel 1 DFI Read and Write Command Number</description>
-          <addressOffset>0x40</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DFI_ACCESS_NUM</name>
-              <description>DFI read and write command number in the statistics range of the
-channel 1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_DDR_IF_CTRL</name>
-          <description>DDR interface Control Register</description>
-          <addressOffset>0x200</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>WRITE_ENABLE</name>
-              <description>bit0~15 write enable
-When bit 16=1, bit 0 can be written by software.
-When bit 16=0, bit 0 cannot be written by software;
-When bit 17=1, bit 1 can be written by software.
-When bit 17=0, bit 1 cannot be written by software;
-......
-When bit 31=1, bit 15 can be written by software.
-When bit 31=0, bit 15 cannot be written by software;</description>
-              <bitRange>[31:16]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>IF_MON_EN</name>
-              <description>DDR interface and DFI monitor enable
-1'b1: enable
-1'b0: disable</description>
-              <bitRange>[2:2]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CH1_DIRECTION</name>
-              <description>Write or read monitor in channel 1 for command statistics
-1'b1: read
-1'b0: write</description>
-              <bitRange>[1:1]</bitRange>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>CH0_DIRECTION</name>
-              <description>Write or read monitor in channel 0 for command statistics
-1'b1: read
-1'b0: write</description>
-              <bitRange>[0:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_WR_START_ADDR</name>
-          <description>Channel 0 Write Start Address</description>
-          <addressOffset>0x20c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_WR_START_ADDR</name>
-              <description>Channel 0 write start address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_WR_END_ADDR</name>
-          <description>Channel 0 Write End Address</description>
-          <addressOffset>0x210</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_WR_END_ADDR</name>
-              <description>Channel 0 write end address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_RD_START_ADDR</name>
-          <description>Channel 0 Read Start Address</description>
-          <addressOffset>0x214</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_RD_START_ADDR</name>
-              <description>Channel 0 read start address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_RD_END_ADDR</name>
-          <description>Channel 0 Read End Address</description>
-          <addressOffset>0x218</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_RD_END_ADDR</name>
-              <description>Channel 0 read end address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_WR_START_ADDR</name>
-          <description>Channel 1 Write Start Address</description>
-          <addressOffset>0x224</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_WR_START_ADDR</name>
-              <description>Channel 1 write start address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_WR_END_ADDR</name>
-          <description>Channel 1 Write End Address</description>
-          <addressOffset>0x228</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_WR_END_ADDR</name>
-              <description>Channel 1 write end address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_RD_START_ADDR</name>
-          <description>Channel 1 Read Start Address</description>
-          <addressOffset>0x22c</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_RD_START_ADDR</name>
-              <description>Channel 1 read start address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_RD_END_ADDR</name>
-          <description>Channel 1 Read End Address</description>
-          <addressOffset>0x230</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_RD_END_ADDR</name>
-              <description>Channel 1 read end address for address comparison</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DDR_FIFO0_ADDR</name>
-          <description>DDR Channel 0 Controller Interface Address FIFO0</description>
-          <addressOffset>0x240</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DDR_FIFO0_ADDR</name>
-              <description>Channel 0 DDR controller interface address FIFO0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DDR_FIFO1_ADDR</name>
-          <description>DDR Channel 0 Controller Interface Address FIFO1</description>
-          <addressOffset>0x248</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DDR_FIFO1_ADDR</name>
-              <description>Channel 0 DDR controller interface address FIFO1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DDR_FIFO2_ADDR</name>
-          <description>DDR Channel 0 Controller Interface Address FIFO2</description>
-          <addressOffset>0x250</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DDR_FIFO2_ADDR</name>
-              <description>Channel 0 DDR controller interface address FIFO2</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH0_DDR_FIFO3_ADDR</name>
-          <description>DDR Channel 0 Controller Interface Address FIFO3</description>
-          <addressOffset>0x258</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH0_DDR_FIFO3_ADDR</name>
-              <description>Channel 0 DDR controller interface address FIFO3</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DDR_FIFO0_ADDR</name>
-          <description>DDR Channel 1 Controller Interface Address FIFO0</description>
-          <addressOffset>0x260</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DDR_FIFO0_ADDR</name>
-              <description>Channel 1 DDR controller interface address FIFO0</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DDR_FIFO1_ADDR</name>
-          <description>DDR Channel 1 Controller Interface Address FIFO1</description>
-          <addressOffset>0x268</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DDR_FIFO1_ADDR</name>
-              <description>Channel 1 DDR controller interface address FIFO1</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DDR_FIFO2_ADDR</name>
-          <description>DDR Channel 1 Controller Interface Address FIFO2</description>
-          <addressOffset>0x270</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DDR_FIFO2_ADDR</name>
-              <description>Channel 1 DDR controller interface address FIFO2</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>DDRMON_CH1_DDR_FIFO3_ADDR</name>
-          <description>DDR Channel 1 Controller Interface Address FIFO3</description>
-          <addressOffset>0x278</addressOffset>
-          <size>32</size>
-          <resetValue>0x0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CH1_DDR_FIFO3_ADDR</name>
-              <description>Channel 1 DDR controller interface address FIFO3</description>
-              <bitRange>[31:0]</bitRange>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-      </registers>
+      <baseAddress>0x47930000</baseAddress>
     </peripheral>
     <peripheral>
       <name>I2S0</name>
       <version>1.0</version>
       <groupname>I2S</groupname>
-      <baseAddress>0xff880000</baseAddress>
+      <baseAddress>0x47880000</baseAddress>
       <registers>
         <register>
           <name>I2S_TXCR</name>
@@ -58034,19 +57353,19 @@ Contains the number of valid data entries in the receive FIFO0.</description>
       <name>I2S1</name>
       <version>1.0</version>
       <groupname>I2S</groupname>
-      <baseAddress>0xff890000</baseAddress>
+      <baseAddress>0x47890000</baseAddress>
     </peripheral>
     <peripheral derivedFrom="I2S0">
       <name>I2S2</name>
       <version>1.0</version>
       <groupname>I2S</groupname>
-      <baseAddress>0xff8a0000</baseAddress>
+      <baseAddress>0x478a0000</baseAddress>
     </peripheral>
     <peripheral>
       <name>SDMMC</name>
       <version>1.0</version>
       <groupname>SDMMC</groupname>
-      <baseAddress>0xfe320000</baseAddress>
+      <baseAddress>0x46320000</baseAddress>
       <registers>
         <register>
           <name>SDMMC_CTRL</name>
@@ -59734,7 +59053,7 @@ applications.</description>
       <name>PCIE</name>
       <version>1.0</version>
       <groupname>PCIE</groupname>
-      <baseAddress>0xf8000000</baseAddress>
+      <baseAddress>0x40000000</baseAddress>
       <registers>
         <register>
           <name>PCIE_CLIENT_BASIC_STRAP_CONF</name>
@@ -61382,7 +60701,7 @@ Message fifo read data</description>
       <name>PWM</name>
       <version>1.0</version>
       <groupname>PWM</groupname>
-      <baseAddress>0xff420000</baseAddress>
+      <baseAddress>0x47420000</baseAddress>
       <registers>
         <register>
           <name>PWM_PWM0_CNT</name>
@@ -62342,6 +61661,687 @@ This bit indicates the FIFO is full</description>
               <name>TIMEOUT_THRESHOLD</name>
               <description>FIFO Timeout Value(unit pwmclk)</description>
               <bitRange>[19:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>DDRMON</name>
+      <version>1.0</version>
+      <groupname>DDRMON</groupname>
+      <baseAddress>0x47630000</baseAddress>
+      <registers>
+        <register>
+          <name>DDRMON_IP_VERSION</name>
+          <description>DDR Monitor IP Version</description>
+          <addressOffset>0x0</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields/>
+        </register>
+        <register>
+          <name>DDRMON_CTRL</name>
+          <description>DDR Monitor Control Register</description>
+          <addressOffset>0x4</addressOffset>
+          <size>32</size>
+          <resetValue>0x8</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>WRITE_ENABLE</name>
+              <description>bit0~15 write enable
+When bit 16=1, bit 0 can be written by softwar .
+When bit 16=0, bit 0 cannot be written by software;
+When bit 17=1, bit 1 can be written by software.
+When bit 17=0, bit 1 cannot be written by software;
+......
+When bit 31=1, bit 15 can be written by software.
+When bit 31=0, bit 15 cannot be written by software;</description>
+              <bitRange>[31:16]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LPDDR4_EN</name>
+              <description>LPDDR4 Mode Enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[4:4]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>HARDWARE_EN</name>
+              <description>Hardware Mode Enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[3:3]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LPDDR3_EN</name>
+              <description>LPDDR3 Mode Monitor Enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[2:2]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>SOFTWARE_EN</name>
+              <description>Software Mode Enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[1:1]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>TIMER_CNT_EN</name>
+              <description>DFI Timer Count Enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_INT_STATUS</name>
+          <description>Interrupt Status</description>
+          <addressOffset>0x8</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_RD_ADDR_HIT</name>
+              <description>This is the interrupt status of channel 1 read address hit the setting
+range</description>
+              <bitRange>[8:8]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH1_WR_ADDR_HIT</name>
+              <description>This is the interrupt status of channel 1 write address hit the setting
+range</description>
+              <bitRange>[7:7]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH0_RD_ADDR_HIT</name>
+              <description>This is the interrupt status of channel 0 read address hit the setting
+range</description>
+              <bitRange>[6:6]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH0_WR_ADDR_HIT</name>
+              <description>This is the interrupt status of channel 0 write address hit the setting
+range</description>
+              <bitRange>[5:5]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH1_OVER_INT</name>
+              <description>This is the interrupt status of DDR read and write burst number
+more than high threshold in channel 0</description>
+              <bitRange>[3:3]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH1_BELOW_INT</name>
+              <description>This is the interrupt status of DDR read and write burst number less
+than low threshold in channel 0</description>
+              <bitRange>[2:2]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH0_OVER_INT</name>
+              <description>This is the interrupt status of DDR read and write burst number
+more than high threshold in channel 0</description>
+              <bitRange>[1:1]</bitRange>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>CH0_BELOW_INT</name>
+              <description>This is the interrupt status of DDR read and write burst number less
+than low threshold in channel 0</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_INT_MASK</name>
+          <description>Interrupt mask control</description>
+          <addressOffset>0xc</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>INT_MASK</name>
+              <description>Interrupt mask control, when bit set to 1'b1, the corresponding
+interrupt will disable</description>
+              <bitRange>[8:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_TIMER_COUNT</name>
+          <description>The DFI Timer Threshold</description>
+          <addressOffset>0x10</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>TIMER_COUNT</name>
+              <description>The DFI timer threshold, the statistics of DDR access only be done
+when timer counter is less then this threshold in hardware mode</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_FLOOR_NUMBER</name>
+          <description>The Low Threshold in the Comparison of DDR Access</description>
+          <addressOffset>0x14</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>FLOOR_NUMBER</name>
+              <description>The low threshold in the comparison of DDR access</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_TOP_NUMBER</name>
+          <description>The High Threshold in the Comparison of DDR Access</description>
+          <addressOffset>0x18</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>TOP_NUMBER</name>
+              <description>The high threshold in the comparison of DDR access</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DFI_ACT_NUM</name>
+          <description>Channel 0 DFI Active Command Number</description>
+          <addressOffset>0x1c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DFI_ACT_NUM</name>
+              <description>DFI active command number in the statistics range of the channel
+0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DFI_WR_NUM</name>
+          <description>Channel 0 DFI write Command Number</description>
+          <addressOffset>0x20</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DFI_WR_NUM</name>
+              <description>DFI write command number in the statistics range of the channel 0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DFI_RD_NUM</name>
+          <description>Channel 0 DFI read Command Number</description>
+          <addressOffset>0x24</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DFI_RD_NUM</name>
+              <description>DFI read command number in the statistics range of the channel 0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_COUNT_NUM</name>
+          <description>Channel 0 Timer Count Number</description>
+          <addressOffset>0x28</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DFI_COUNT_NUM</name>
+              <description>Timer count number in the statistics range of the channel 0, the
+value should be divided by 2 as actual timer count.</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DFI_ACCESS_NUM</name>
+          <description>Channel 0 DFI Read and Write Command Number</description>
+          <addressOffset>0x2c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DFI_ACCESS_NUM</name>
+              <description>DFI read and write command number in the statistics range of the
+channel 0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DFI_ACT_NUM</name>
+          <description>Channel 1 DFI Active Command Number</description>
+          <addressOffset>0x30</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DFI_ACT_NUM</name>
+              <description>DFI active command number in the statistics range of the channel
+1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DFI_WR_NUM</name>
+          <description>Channel 1 DFI write Command Number</description>
+          <addressOffset>0x34</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DFI_WR_NUM</name>
+              <description>DFI write command number in the statistics range of the channel 1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DFI_RD_NUM</name>
+          <description>Channel 1 DFI read Command Number</description>
+          <addressOffset>0x38</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DFI_RD_NUM</name>
+              <description>DFI read command number in the statistics range of the channel 1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_COUNT_NUM</name>
+          <description>Channel 1 Timer Count Number</description>
+          <addressOffset>0x3c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DFI_COUNT_NUM</name>
+              <description>Timer count number in the statistics range of the channel 1, the
+value should be divided by 2 as actual timer count.</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DFI_ACCESS_NUM</name>
+          <description>Channel 1 DFI Read and Write Command Number</description>
+          <addressOffset>0x40</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DFI_ACCESS_NUM</name>
+              <description>DFI read and write command number in the statistics range of the
+channel 1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_DDR_IF_CTRL</name>
+          <description>DDR interface Control Register</description>
+          <addressOffset>0x200</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>WRITE_ENABLE</name>
+              <description>bit0~15 write enable
+When bit 16=1, bit 0 can be written by software.
+When bit 16=0, bit 0 cannot be written by software;
+When bit 17=1, bit 1 can be written by software.
+When bit 17=0, bit 1 cannot be written by software;
+......
+When bit 31=1, bit 15 can be written by software.
+When bit 31=0, bit 15 cannot be written by software;</description>
+              <bitRange>[31:16]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>IF_MON_EN</name>
+              <description>DDR interface and DFI monitor enable
+1'b1: enable
+1'b0: disable</description>
+              <bitRange>[2:2]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CH1_DIRECTION</name>
+              <description>Write or read monitor in channel 1 for command statistics
+1'b1: read
+1'b0: write</description>
+              <bitRange>[1:1]</bitRange>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>CH0_DIRECTION</name>
+              <description>Write or read monitor in channel 0 for command statistics
+1'b1: read
+1'b0: write</description>
+              <bitRange>[0:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_WR_START_ADDR</name>
+          <description>Channel 0 Write Start Address</description>
+          <addressOffset>0x20c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_WR_START_ADDR</name>
+              <description>Channel 0 write start address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_WR_END_ADDR</name>
+          <description>Channel 0 Write End Address</description>
+          <addressOffset>0x210</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_WR_END_ADDR</name>
+              <description>Channel 0 write end address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_RD_START_ADDR</name>
+          <description>Channel 0 Read Start Address</description>
+          <addressOffset>0x214</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_RD_START_ADDR</name>
+              <description>Channel 0 read start address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_RD_END_ADDR</name>
+          <description>Channel 0 Read End Address</description>
+          <addressOffset>0x218</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_RD_END_ADDR</name>
+              <description>Channel 0 read end address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_WR_START_ADDR</name>
+          <description>Channel 1 Write Start Address</description>
+          <addressOffset>0x224</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_WR_START_ADDR</name>
+              <description>Channel 1 write start address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_WR_END_ADDR</name>
+          <description>Channel 1 Write End Address</description>
+          <addressOffset>0x228</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_WR_END_ADDR</name>
+              <description>Channel 1 write end address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_RD_START_ADDR</name>
+          <description>Channel 1 Read Start Address</description>
+          <addressOffset>0x22c</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_RD_START_ADDR</name>
+              <description>Channel 1 read start address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_RD_END_ADDR</name>
+          <description>Channel 1 Read End Address</description>
+          <addressOffset>0x230</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_RD_END_ADDR</name>
+              <description>Channel 1 read end address for address comparison</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DDR_FIFO0_ADDR</name>
+          <description>DDR Channel 0 Controller Interface Address FIFO0</description>
+          <addressOffset>0x240</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DDR_FIFO0_ADDR</name>
+              <description>Channel 0 DDR controller interface address FIFO0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DDR_FIFO1_ADDR</name>
+          <description>DDR Channel 0 Controller Interface Address FIFO1</description>
+          <addressOffset>0x248</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DDR_FIFO1_ADDR</name>
+              <description>Channel 0 DDR controller interface address FIFO1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DDR_FIFO2_ADDR</name>
+          <description>DDR Channel 0 Controller Interface Address FIFO2</description>
+          <addressOffset>0x250</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DDR_FIFO2_ADDR</name>
+              <description>Channel 0 DDR controller interface address FIFO2</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH0_DDR_FIFO3_ADDR</name>
+          <description>DDR Channel 0 Controller Interface Address FIFO3</description>
+          <addressOffset>0x258</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH0_DDR_FIFO3_ADDR</name>
+              <description>Channel 0 DDR controller interface address FIFO3</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DDR_FIFO0_ADDR</name>
+          <description>DDR Channel 1 Controller Interface Address FIFO0</description>
+          <addressOffset>0x260</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DDR_FIFO0_ADDR</name>
+              <description>Channel 1 DDR controller interface address FIFO0</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DDR_FIFO1_ADDR</name>
+          <description>DDR Channel 1 Controller Interface Address FIFO1</description>
+          <addressOffset>0x268</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DDR_FIFO1_ADDR</name>
+              <description>Channel 1 DDR controller interface address FIFO1</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DDR_FIFO2_ADDR</name>
+          <description>DDR Channel 1 Controller Interface Address FIFO2</description>
+          <addressOffset>0x270</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DDR_FIFO2_ADDR</name>
+              <description>Channel 1 DDR controller interface address FIFO2</description>
+              <bitRange>[31:0]</bitRange>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>DDRMON_CH1_DDR_FIFO3_ADDR</name>
+          <description>DDR Channel 1 Controller Interface Address FIFO3</description>
+          <addressOffset>0x278</addressOffset>
+          <size>32</size>
+          <resetValue>0x0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CH1_DDR_FIFO3_ADDR</name>
+              <description>Channel 1 DDR controller interface address FIFO3</description>
+              <bitRange>[31:0]</bitRange>
               <access>read-only</access>
             </field>
           </fields>
